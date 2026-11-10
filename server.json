@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Marcoco27/sentinelle-syndic",
+  "title": "Sentinelle syndic FR",
+  "description": "French condominium registry: current syndic and mandate end date, by condo or by area.",
+  "version": "0.1.0",
+  "websiteUrl": "https://syndic.amacunia.fr/",
+  "repository": {
+    "url": "https://github.com/Marcoco27/sentinelle-syndic-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syndic.amacunia.fr/mcp"
+    }
+  ]
+}
